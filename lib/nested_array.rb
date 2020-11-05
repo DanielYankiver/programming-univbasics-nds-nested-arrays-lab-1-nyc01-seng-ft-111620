@@ -49,7 +49,7 @@ def matrix_lookup(matrix, row, column)
       ["Grapefruit", "Pineapple", "Oranges", "Watermelon","Eggplant"].sort,
       ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"].sort
         ]
-    matrix = produce_storage_room
+    produce_storage_room = matrix
     row = produce_storage_room[0] || produce_storage_room[1]
     column = produce_storage_room[0][1] && produce_storage_room[1][1]
 end
