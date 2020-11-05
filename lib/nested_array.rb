@@ -45,11 +45,10 @@ end
 # Return the matrix's content at that row and and column
 
 def matrix_lookup(matrix, row, column)
-  produce_storage_room = [
+  matrix = [
       ["Grapefruit", "Pineapple", "Oranges", "Watermelon","Eggplant"].sort,
       ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"].sort
         ]
-    produce_storage_room = matrix
     row = produce_storage_room[0] || produce_storage_room[1]
     column = produce_storage_room[0][1] && produce_storage_room[1][1]
 end
