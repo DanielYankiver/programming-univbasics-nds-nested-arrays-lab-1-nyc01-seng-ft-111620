@@ -45,16 +45,8 @@ end
 # Return the matrix's content at that row and and column
 
 def matrix_lookup(matrix, row, column)
-  matrix = [
-      ["Grapefruit", "Pineapple", "Oranges", "Watermelon","Eggplant"].sort,
-      ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"].sort
-        ]
-    row = produce_storage_room[0] || produce_storage_room[1]
-    column = produce_storage_room[0][1] && produce_storage_room[1][1]
-    matrix_lookup(matirx, 1, 1)
+ 
 end
-
-
 
 def matrix_update(matrix, row, column, new_value)
   # Given any matrix (array of arrays), a row index and a column index, 
