@@ -44,16 +44,24 @@ end
 # Given any matrix (array of arrays), a row index and a column index, 
 # Return the matrix's content at that row and and column
 
-def matrix_lookup(matrix, row, column)
-  matrix = [
+matrix = [
      ["Grapefruit", "Pineapple", "Oranges", "Watermelon","Eggplant"].sort,
      ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"].sort
        ]
+
+def matrix_lookup(matrix, row, column)
   matrix[row][column]
 end
 
-def matrix_update(matrix, row, column, new_value)
-  # Given any matrix (array of arrays), a row index and a column index, 
+ # Given any matrix (array of arrays), a row index and a column index, 
   # Update the matrix location at that row and column to have the value of new_value
   # Return the updated matrix
+  
+matrix = [
+     ["Grapefruit", "Pineapple", "Oranges", "Watermelon","Eggplant"].sort,
+     ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"].sort
+       ]
+
+def matrix_update(matrix, row, column, new_value)
+  matrix[row][coulmn] = new_value
 end
