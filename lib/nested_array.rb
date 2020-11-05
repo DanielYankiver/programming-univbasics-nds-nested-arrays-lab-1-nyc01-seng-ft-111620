@@ -35,7 +35,10 @@ end
 # However, this time, sort each internal array alphabetically by the first character
   
 def sorted_matrix
-  
+    produce_storage_room = [
+      ["Grapefruit", "Pineapple", "Oranges", "Watermelon","Eggplant"].sort,
+      ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"].sort
+        ]
 end
 
 def matrix_lookup(matrix, row, column)
