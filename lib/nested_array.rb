@@ -50,12 +50,8 @@ matrix = [
        ]
 
 def matrix_lookup(matrix, row, column)
-  row = matrix[0] && matrix[1]
-  column = matrix[0][0] && matrix[1][0] || matrix[0][1] && matrix[1][1] ||
-  matrix[0][2] || matrix[1][2]
+  matrix[row][column]
 end
-
-p matrix_lookup(matrix, 1, 1)
 
 def matrix_update(matrix, row, column, new_value)
   # Given any matrix (array of arrays), a row index and a column index, 
