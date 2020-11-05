@@ -49,7 +49,7 @@ def matrix_lookup(matrix, row, column)
       ["Grapefruit", "Pineapple", "Oranges", "Watermelon","Eggplant"].sort,
       ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"].sort
         ]
-  matrix_lookup()
+  matrix_lookup(matrix, 1, 1)
 end
 
 def matrix_update(matrix, row, column, new_value)
