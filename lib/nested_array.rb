@@ -23,7 +23,7 @@ CONVENTIONAL_PRODUCE = [
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
   
 def assembled_matrix
-  
+  produce_storage_room = [ORGANIC_PRODUCE, CONVENTIONAL_PRODUCE]
 end
 
 def sorted_matrix
