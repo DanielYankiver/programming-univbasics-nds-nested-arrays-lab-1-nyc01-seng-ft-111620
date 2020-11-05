@@ -51,8 +51,8 @@ def matrix_lookup(matrix, row, column)
         ]
   matrix = produce_storage_room
   row = produce_storage_room[0] 
-  column = produce_storage_room[0][1] && 
-  
+  column = produce_storage_room[0][1]
+  matrix_lookup(matrix_lookup, row, column)
 end
 
 def matrix_update(matrix, row, column, new_value)
